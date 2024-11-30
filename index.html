@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Pattern</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 100px);
+      grid-gap: 10px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+    }
+    .blue { background-color: blue; }
+    .red { background-color: red; }
+    .pink { background-color: pink; }
+    .cyan { background-color: cyan; }
+    .maroon { background-color: maroon; }
+    .black { background-color: black; }
+    .orange { background-color: orange; }
+    .yellow { background: yellow url('pattern.jpg') center/cover; }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="box blue"></div>
+    <div></div>
+    <div></div>
+    <div class="box red"></div>
+    <div class="box pink"></div>
+    <div class="box cyan"></div>
+    <div class="box maroon"></div>
+    <div class="box black"></div>
+    <div class="box orange"></div>
+    <div></div>
+    <div></div>
+    <div class="box yellow"></div>
+    <div class="box red"></div>
+  </div>
+</body>
+</html>
